@@ -41,6 +41,23 @@
     footer .logo-box img{
         margin-bottom: 20px;
     }
+    .main-banner-sec .heading h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .main-banner-sec .heading h2{
+        font-size: 30px;
+    }
+    .main-banner-sec .desc{
+        font-size: 22px;
+    }
+    .expertly-sec .heading h2{
+        font-size: 43px;
+        line-height: 57px;
+    }
+    .section-heading h2{
+        font-size: 40px;
+    }
 }
 @media only screen and (max-width: 576px){
     
