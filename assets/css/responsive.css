@@ -10,15 +10,15 @@
         margin-bottom: 30px;
     }
     .built-for-you-sec .item-box .name-box p{
-        font-size: 20px;
+        font-size: 16px;
         min-height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .built-for-you-sec .item-box .text-box p{
-        font-size: 35px;
-        bottom: -340px;
+        font-size: 26px;
+        bottom: -310px;
     }
     .app-sec .img-box{
         height: 370px;
@@ -46,26 +46,26 @@
         margin-bottom: 20px;
     }
     .main-banner-sec .heading h1{
-        font-size: 40px;
+        font-size: 36px;
         margin-bottom: 20px;
     }
     .main-banner-sec .heading h2{
-        font-size: 27px;
+        font-size: 23px;
         font-weight: 500;
     }
     .main-banner-sec .desc{
-        font-size: 22px;
+        font-size: 18px;
     }
     .expertly-sec .heading h2{
-        font-size: 36px;
+        font-size: 26px;
         line-height: normal;
     }
     .section-heading h2{
-        font-size: 34px;
+        font-size: 28px;
     }
     .app-sec .content-box .title{
         line-height: normal;
-        font-size: 28px;
+        font-size: 23px;
         margin-bottom: 40px;
     }
     .testmonial-box .name{
@@ -74,17 +74,30 @@
     .testmonial-box .desc{
         margin-bottom: 0;
         min-height: auto;
+        font-size: 16px;
     }
     .testmonial-box .rating-box{
         margin-bottom: 30px;
     }
     .main-banner-sec .text{
-        font-size: 18px;
+        font-size: 16px;
     }
     .main-banner-sec .btn-black{
         display: block;
         width: 100%;
     }
+    .section-heading p {
+        font-size: 16px;
+    }
+    .built-for-you-sec .title p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .app-sec .content-box .desc{
+        font-size: 16px;
+        line-height: normal;
+    }
+    
 }
 @media only screen and (max-width: 576px){
     
