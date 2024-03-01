@@ -8,4 +8,5 @@
    --purple: #B068AA;
    --heading-text: #152f2e;
    --sky: #9fd9e7;
+   --gradient-one: linear-gradient(124deg, rgba(247,148,29,1) 0%, rgba(255,198,130,1) 100%);
 }

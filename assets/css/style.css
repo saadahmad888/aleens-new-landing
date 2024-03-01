@@ -3,12 +3,13 @@
 /* font-family: 'Plus Jakarta Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-/* font-family: "Ubuntu", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 body {
-    font-family: "Ubuntu", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
     position: relative;
 }
 
@@ -136,9 +137,9 @@ a {
 }
 .expertly-sec .heading h2{
     color: var(--white);
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 0;
-    line-height: 75px;
+    line-height: 60px;
     font-weight: 500;
 }
 .expertly-sec .img-box img{
@@ -375,4 +376,673 @@ footer .text a{
 }
 footer .logo-box img{
     height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-title{
+    margin-bottom: 50px;
+}
+.section-title h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.section-title p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.section-title.white h2,
+.section-title.white p{
+    color: var(--white);
+}
+
+
+/* =======================================================================
+    Statics Section CSS
+========================================================================== */
+.statistic-sec{
+    padding: 70px 0 40px 0;
+}
+.statistic-sec .stat-box{
+    text-align: center;
+    border-right: 1px solid #2121212f;
+    margin-bottom: 30px;
+}
+.statistic-sec .stat-box .numbers{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--orange);
+    /* background-image: var(--gradient-one);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.statistic-sec .stat-box .title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+/* =======================================================================
+    Reviews Section CSS
+========================================================================== */
+.reviews-sec{
+    padding: 70px 0 40px 0;
+}
+.review-box{
+    box-shadow: 0 0.313rem 0.875rem rgba(45, 49, 54, 0.09);
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 15px;
+    transition: 0.3s all ease;
+    margin-bottom: 30px;
+}
+.review-box:hover{
+    box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+    transform: translateY(-10px);
+}
+.review-box .quote-icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+    color: #fde5c4;
+    font-size: 60px;
+    opacity: 0.4;
+}
+.review-box .rating-box{
+    padding: 20px 20px 10px 20px;
+}
+.review-box .rating-box i{
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.review-box .content-box{
+    padding: 20px 20px;
+}
+.review-box .content-box .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.review-box .content-box .desc{
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.review-box .user-info-box{
+    background-color: #fde5c4;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+.review-box .user-info-box::after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #fde5c4;
+    bottom: calc(100% - 10px);
+    left: 10%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.review-box .user-info-box .img-box img{ 
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.review-box .user-info-box .name{
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+
+
+/* =======================================================================
+    How It Works Section CSS
+========================================================================== */
+.how-it-wroks-sec{
+    padding: 70px 0 40px 0;
+    background: rgb(247,148,29);
+    background: linear-gradient(124deg, rgba(247,148,29,1) 25%, rgba(255,138,0,1) 66%, rgba(247,148,29,1) 100%);
+}
+.how-it-works-item{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.how-it-works-item.arrow::after{
+    content: "\f054";
+    font-family: "Font Awesome 5 Pro";
+    color: var(--white);
+    font-size: 30px;
+    position: absolute;
+    right: -50px;
+    top: 40%;
+    transition: 0.3s all ease;
+}
+.how-it-works-item.arrow:hover::after{
+    right: -60px;
+}
+.how-it-works-item img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    filter: brightness(0) invert(1);
+    margin-bottom: 20px;
+}
+.how-it-works-item .title{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 22px;
+}
+.how-it-works-item .desc{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 80px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+/* =======================================================================
+    Meal Item Section CSS
+========================================================================== */
+.meal-items-section{
+    padding: 70px 0;
+}
+.meal-items-section .sub-heading{
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 30px;
+}
+.meal-items-section .heading-bottom-line{
+    display: block;
+    width: 100px;
+    height: 3px;
+    border-radius: 100px;
+    background-color: var(--orange);
+    position: relative;
+    top: -15px;
+}
+.meal-items-section .view-more{
+    color: var(--orange);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    float: right;
+    transition: 0.3s all ease;
+}
+.meal-items-section .view-more i{
+    margin-left: 5px;
+    transition: 0.3s all ease;
+}
+.meal-items-section .view-more:hover i{
+    margin-left: 10px;
+    transform: rotate(-45deg);
+}
+.meal-item-box{
+    position: relative;
+}
+.meal-item-box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 15px;
+}
+.meal-item-box .content-box{
+    background-color: #00000094;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px 10px
+}
+.meal-item-box .content-box p{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* =======================================================================
+    Mobile App Banner Section CSS
+========================================================================== */
+.mobile-app-sec{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.mobile-app-sec .container{
+    background: rgb(247,148,29);
+    background: linear-gradient(124deg, rgba(247,148,29,1) 25%, rgba(255,138,0,1) 66%, rgba(247,148,29,1) 100%);
+    border-radius: 40px;
+    padding-bottom: 100px;
+}
+.mobile-app-sec .content-box{
+    padding: 20px 30px 20px 40px;
+}
+.mobile-app-sec .content-box h2{
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.mobile-app-sec .content-box p{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.mobile-app-sec .content-box img{
+    transition: 0.3s all ease;
+}
+.mobile-app-sec .content-box img:hover{
+    box-shadow: 1px 4px 8px -2px rgba(0,0,0,0.5);
+}
+.mobile-app-sec .img-box{
+    position: relative;
+    text-align: start;
+    top: -30px;
+    transition: 0.3s all ease;
+}
+.mobile-app-sec:hover .img-box{
+    transform: rotate(10deg);
+}
+.mobile-app-sec .img-box .one{
+    position: relative;
+    z-index: 1;
+}
+.mobile-app-sec .img-box .two{
+    position: absolute;
+    z-index: 2;
+    right: 130px;
+    top: -70px;
+}
+
+
+
+
+/* =======================================================================
+    Header CSS
+========================================================================== */
+.main-banner{
+    background: rgba(0, 0, 0, 0) url('https://images.unsplash.com/photo-1592861956120-e524fc739696?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWF0aW5nJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D') no-repeat scroll center center / cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+    padding-bottom: 60px;
+}
+.main-banner::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(124deg, rgba(247,148,29,1) 25%, rgba(255,138,0,1) 66%, rgba(247,148,29,1) 100%);
+    opacity: 0.84;
+    z-index: -1;
+}
+.main-banner .content-box h1{
+    color: var(--white);
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main-banner .content-box p{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-banner .img-box{
+    text-align: center;
+}
+.main-banner .img-box img{
+    width: 400px;
+    animation: rotate 15s linear infinite;
+    transition: 0.3s all ease;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.bottom-border-banner{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
 }
