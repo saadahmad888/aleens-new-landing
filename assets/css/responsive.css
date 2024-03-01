@@ -11,6 +11,10 @@
     }
     .built-for-you-sec .item-box .name-box p{
         font-size: 20px;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .built-for-you-sec .item-box .text-box p{
         font-size: 35px;
@@ -34,9 +38,9 @@
         left: 80px;
     }
     .app-sec .img-box .img-3{
-        left: 320px;
+        left: 310px;
         bottom: 43%;
-        width: 115px;
+        width: 105px;
     }
     footer .logo-box img{
         margin-bottom: 20px;
@@ -46,17 +50,40 @@
         margin-bottom: 20px;
     }
     .main-banner-sec .heading h2{
-        font-size: 30px;
+        font-size: 27px;
+        font-weight: 500;
     }
     .main-banner-sec .desc{
         font-size: 22px;
     }
     .expertly-sec .heading h2{
-        font-size: 43px;
-        line-height: 57px;
+        font-size: 36px;
+        line-height: normal;
     }
     .section-heading h2{
-        font-size: 40px;
+        font-size: 34px;
+    }
+    .app-sec .content-box .title{
+        line-height: normal;
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .testmonial-box .name{
+        margin-bottom: 10px;
+    }
+    .testmonial-box .desc{
+        margin-bottom: 0;
+        min-height: auto;
+    }
+    .testmonial-box .rating-box{
+        margin-bottom: 30px;
+    }
+    .main-banner-sec .text{
+        font-size: 18px;
+    }
+    .main-banner-sec .btn-black{
+        display: block;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 576px){
