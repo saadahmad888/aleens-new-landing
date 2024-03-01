@@ -45,6 +45,10 @@ a {
     margin-bottom: 0;
 }
 
+.color-orange{
+    color: var(--orange);
+}
+
 
 /* =======================================================================
     Navbar CSS
@@ -75,7 +79,7 @@ a {
     Main Banner CSS
 ========================================================================== */
 .main-banner-sec{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://d9hhrg4mnvzow.cloudfront.net/get.rightbite.com/athletemealplan/eb2b8556-banner3-smaller_10000002gf14j000096000.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://aleens.ae/assets/images/meal-images/slider-1-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -98,7 +102,7 @@ a {
 }
 .main-banner-sec .desc{
     color: var(--white);
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
@@ -232,10 +236,12 @@ a {
     padding: 20px 30px;
 }
 .how-it-works-sec .item-box .inner-item-box img{
-    width: 107px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     object-position: center center;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-bottom: 20px;
 }
 .how-it-works-sec .item-box .inner-item-box .text{
     color: var(--white);
@@ -314,6 +320,11 @@ a {
     font-weight: 400;
     margin-bottom: 10px;
     min-height: 130px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .testmonial-box .rating-box{
     margin-bottom: 20px;
